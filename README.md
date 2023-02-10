@@ -39,8 +39,6 @@ Some endpoints may require an authentication to access. For example, to create/d
 
 You have to put the access token in `Authorization header`.
 
-([Back](#Endpoints))
-
 ### Register
 In order to use social media endpoints, you must register a new account.
 
