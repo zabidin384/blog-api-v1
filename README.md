@@ -34,12 +34,14 @@ This is a smple Social Media API documentation. Enjoy!
   - [Admin unblock user](https://www.github.com/octokatherine)
   - [Admin delete user](https://www.github.com/octokatherine)
 
-## Authentication Endpoint ([Back](#Endpoints))
+## Authentication Endpoint 
+([Back](#Endpoints))
 Some endpoints may require an authentication to access. For example, to create/delete/update a post, you need to register an account, login, and give the access token. 
 
 You have to put the access token in `Authorization header`.
 
-### 1. Register
+### 1. Register 
+([Back](#Endpoints))
 In order to use social media endpoints, you must register a new account.
 
 ```http
@@ -64,6 +66,7 @@ Parameter details:
 | `password` | `string` | Your password | Yes |
 
 ### 2. Login
+([Back](#Endpoints))
 After login into your account, you will get token that require for authentication.
 
 ```http
