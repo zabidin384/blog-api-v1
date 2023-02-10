@@ -15,7 +15,7 @@ This is a smple Social Media API documentation. Enjoy!
 - Get all users who views someone's profile
 - Profile photo uploaded
 
-## End Point
+## Endpoints
 - [Authentication](#Authentication-Endpoint)
   - [Register](#1.-Register)
   - [Login](#2.-Login)
@@ -34,7 +34,7 @@ This is a smple Social Media API documentation. Enjoy!
   - [Admin unblock user](https://www.github.com/octokatherine)
   - [Admin delete user](https://www.github.com/octokatherine)
 
-## Authentication Endpoint
+## Authentication Endpoint [Back](#Endpoints)
 Some endpoints may require an authentication to access. For example, to create/delete/update a post, you need to register an account, login, and give the access token. 
 
 You have to put the access token in `Authorization header`.
