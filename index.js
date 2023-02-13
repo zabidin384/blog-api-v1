@@ -20,6 +20,9 @@ app.use("/api/v1/posts", postRoute);
 app.use("/api/v1/comments", commentRoute);
 app.use("/api/v1/reply", replyRoute);
 app.use("/api/v1/categories", categoryRoute);
+app.get("/", (req, res) => {
+	res.send("Welcome to Social Media API!");
+});
 
 // 404 error
 app.use("*", (req, res) => {

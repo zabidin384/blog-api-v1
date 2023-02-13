@@ -11,7 +11,7 @@ const registerUser = async (req, res) => {
 
 	try {
 		const userFound = await userModel.findOne({ email });
-		if (userFound) return res.status(403).json({ message: `${email} already registered!` });
+		if (userFound) return res.status(409).json({ message: `${email} already registered!` });
 
 		const salt = await bcrypt.genSalt(10);
 		const hashedPassword = await bcrypt.hash(password, salt);
